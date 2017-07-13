@@ -1,0 +1,9 @@
+<html>
+<body>
+	<ul> {{title}}
+		<li>
+			{{posts}}
+		</li>
+	</ul>
+</body>
+</html>

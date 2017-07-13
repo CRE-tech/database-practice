@@ -14,8 +14,8 @@ function loginRequired(req,res,next){
 router
 	.get("/posts", loginRequired, (req,res,next) => {
 		userPosts
-		.find({_id: req.user.id}, function(err, posts) {
-			res.render(posts.toString(), {
+		.find({"_id": req.user.id}, function(err, posts) {
+			res.render("posts", {
 				title: "Your Posts",
 				posts: posts,
 			})
