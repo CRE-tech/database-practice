@@ -6,6 +6,8 @@
   </head>
   <body>
     <p>Hi, welcome to our practice site</p>
+    <p>This site is dedicated for people who are interested in being full stack developers.</p>
+    <p></p>
     <div>
     	<a href="./login">Log In</a>
     </div>
