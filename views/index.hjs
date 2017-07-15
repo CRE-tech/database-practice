@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ title }}</title>
+    <title>database practice with mongoDB and node JS</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
+    <p>Hi, welcome to our practice site</p>
+    <div>
+    	<a href="./login">Log In</a>
+    </div>
+    <div>
+    	<a href="./signup">Sign Up</a>
+    </div>
   </body>
 </html>
